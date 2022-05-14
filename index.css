@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div ul{
+    display: flex;
+    text-align: right;
+    align-items: flex-end;
+    justify-content:flex-end;
+    flex-flow:row wrap;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+#aller{
+    background-color:hsla(100, 25%, 95%, 0.2);
+}
+#code,#design{
+    margin: 0 auto;
+    width:80%;
+    display: block;
+    justify-content:center;
+    padding-top: 100px;
+}
+.bordure{
+    box-shadow: 3px 3px 5px #555;
+}
+div{
+    text-align: center;
+}
+/* #react,#php,#js,#css,#html{
+} */
+#react{
+    width: 15%;
+}
+#html{
+    width: 90%;
+}
+#css{
+    width:100%;
+}
+#php{
+    width:65%;
+}
+#js{
+    width:80%;
+}
+.blanc{
+    box-shadow:5px 5px 10px hsla(0, 25%, 95%, 0.5);
+}button{
+    background-color:hsla(240, 55%, 55%, 0.5);
+    border:1px solid hsla(240,55%,55%,0.5);
+    padding:5px;
+}
+#figma{
+    width:80%;
+}
+#adobe{
+    width:23%;
+}
+#ui{
+    width:55%;
+}
+#ux{
+    width:33%;
+}
+#video{
+    width:45%;
+}
+.gauche{
+    text-align:left;
+}
+bordures{
+    border:1px solid #ccc;
+}
+.imagebien{
+    width:100%;
+}
+#cafe{
+    width:100%;
+}
+input{
+    width:80%;
+}
+.label{
+    text-align: left;
+}
+#bordurer{
+    border: 2px solid hsla(240,55%,55%,0.5);
+}
